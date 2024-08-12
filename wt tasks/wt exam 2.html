@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indian Restaurant Menu</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://st.depositphotos.com/1016729/3637/i/450/depositphotos_36373753-stock-photo-old-menu-background-vintage-paper.jpg');
+            background-size:contain;
+            background-position: center;
+        }
+
+        header {
+            color:rgb(77, 45, 3);
+            padding: 1em;
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 2em;
+        }
+
+        .menu {
+            background-color:rgb(171, 126, 72);
+            padding: 1em;
+            border: 1px solid #ddd;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .dish {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 1em;
+            border-bottom: 1px solid #ccc;
+        }
+
+        .dish img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 50%;
+            margin-bottom: 1em;
+        }
+
+        .dish h3 {
+            font-weight: bold;
+            margin-bottom: 0.5em;
+        }
+
+        .dish p {
+            font-size: 0.9em;
+            color:black;
+            margin-bottom: 1em;
+        }
+
+        .price {
+            font-weight: bold;
+            color: #333;
+            margin-bottom: 1em;
+        }
+        h2{
+            text-align: center;
+        }
+        h3{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Taste of India Restaurant</h1>
+    </header>
+    <main>
+        <section class="menu">
+            <h2>Our Menu</h2>
+            <h3>Appetizers</h3>
+            <ul>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCoE1y99Mdom7djTyoP72OSHFmK3N_7HzgQg&s" alt="Samosas">
+                        <h3>Samosas</h3>
+                        <p>Crispy fried or baked pastries filled with spiced potatoes and peas.</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_b4BCJC2AYZei5M_EU0ENomgqW6mR9USm3w&s">
+                        <h3>Panner Tikka</h3>
+                        <p>made from chunks of paneer/ chhena marinated in spices and grilled in a tandoor.</p>
+                        <span class="price">₹ 300</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRWzbJX1sFD0n13RVbhVCp_9Bh9sAHGX4lhIQ&s" alt="Rogan Josh">
+                        <h3>Aloo Tikki</h3>
+                        <p>made of boiled potatoes, peas, and various curry spices.</p>
+                        <span class="price">₹ 300</span>
+                    </div>
+                </li>
+            <h3>Main Course</h3>
+            <ul>
+                <li>
+                    <div class="dish">
+                        <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSY_1KNOhuFc6ySZZQqA4oIZk5Db4fhpVcJbA&s' alt="Chicken Tikka Masala">
+                        <h3>Chicken Tikka Masala</h3>
+                        <p>Marinated chicken cooked in a rich and creamy tomato sauce, served with basmati rice.</p>
+                        <span class="price">₹ 250</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoKQ8VcITxTyBYGos_bZfBfi3ZqEKIq9gd6w&s" alt="Biryani">
+                        <h3>Biryani</h3>
+                        <p>Mixed rice dish made with basmati rice, meat or vegetables, and a blend of spices.</p>
+                        <span class="price">₹ 300</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoza1e-AkhWPcCJscD7Wc92-2AQmnS4PWf7A&s" alt="Tandoori Chicken">
+                        <h3>Tandoori Chicken</h3>
+                        <p>Marinated chicken cooked in a clay oven, served with naan bread and salad.</p>
+                        <span class="price">₹ 250</span>
+                    </div>
+                </li>
+            </ul>
+            <h3>Desserts</h3>
+            <ul>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaytjYQzqpnaT3S3KYw64GT2Balo7PmYQnNQ&s" alt="Gulab Jamun">
+                        <h3>Gulab Jamun</h3>
+                        <p>Fried Dough Balls in Syrup,Sweet gulab jamun, or fried dough balls in syrup.</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeUFUy9OduZmwrdySCO9qiXWp8w6jADyG44Q&s" alt="Kaju Katli">
+                        <h3>Kaju Katli</h3>
+                        <p> fudge made of powdered cashews, that's kaju katli in a nutshell.</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_JYsPxLt94f4IN5ddvQ_7OcUT8Ge90lE7dA&s" alt="Kheer">
+                        <h3>Kheer</h3>
+                        <p>sweet, aromatic, and creamy Indian rice pudding.</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li> 
+            <h3>Drinks</h3>
+            <ul>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAVN6-VLj2l1n6h_2kvyqMNkKUEsVU6WG9fQ&s" alt="Masala Chai">
+                        <h3>Masala Chai</h3>
+                        <p>made with a combination of sweetened black tea and milk</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTmFUJYqceaOuh8_lKO7BE6bIkTwRf0dhDCA&s" alt="Mango Lassi">
+                        <h3>Mango Lassi</h3>
+                        <p>blending the rich sweetness of ripe mangoes with thick curd</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li>
+                <li>
+                    <div class="dish">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMp4Znf58xhv0rsRw5CJfnsqVXORljPyqiBA&s" alt="Badam Milk">
+                        <h3>Badam Milk</h3>
+                        <p>delightful Indian drink made with ground almonds, cardamom powder, and saffron</p>
+                        <span class="price">₹ 150</span>
+                    </div>
+                </li>

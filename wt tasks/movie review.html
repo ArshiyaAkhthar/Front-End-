@@ -1,0 +1,98 @@
+<!-- Movie Review HTML -->
+<html>
+  <head>
+    <title>Movie Review</title>
+    <style>
+      /* Add some basic styling to make the review look decent */
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .review-container {
+        width: 80%;
+        margin: 40px auto;
+        padding: 20px;
+        background-color: #f7f7f7;
+        border: 1px solid #ddd;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+      .review-header {
+        background-color:goldenrod;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
+      .movie-title {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      .review-image {
+        float: left;
+        margin: 10px;
+      }
+      .review-text {
+        overflow: auto;
+        padding: 20px;
+      }
+      .rating {
+        font-size: 24px;
+        font-weight: bold;
+        color: #666;
+      }
+      .highlights, .drawbacks {
+        margin-top: 20px;
+      }
+      .highlights ul, .drawbacks ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .highlights li, .drawbacks li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+      }
+      .highlights li:last-child, .drawbacks li:last-child {
+        border-bottom: none;
+      }
+      iframe {
+        width: 100%;
+        height: 300px;
+        border: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="review-container">
+      <div class="review-header">
+        <h1 class="movie-title">Maharaja</h1>
+      </div>
+      <div class="review-image">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR65i06GLvzsqyzr2a4Gl1Ibm9Ns2RD0UJ2Zw&s" alt="Movie Poster" width="200" height="300">
+      </div>
+      <div class="review-text">
+        <p> Maharaja (Vijay Sethupathu), a bruised aging man, walks into Pallikaranai police station in Chennai, claiming three thieves broke into his house and stole his ‘Lakshmi’. After the cops interrogate him, the furious cops realise the missing item is an old iron dustbin. Maharaja claims that the dustbin is of sentimental value to him and his daughter as it saved the latter during a fatal accident that killed his wife — something that gets established in the prologue of the film.</p>
+      </div>
+      <div class="rating">
+        Rating: 4/5
+      </div>
+      <div class="trailer">
+        <video src ="https://www.youtube.com/watch?v=n3ttNeXKPHg&pp=ygUQbWFoYXJhamEgdHJhaWxlcg%3D%3D" controls autoplay muted loop height="500 px"></video>
+      </div>
+      <div class="highlights">
+        <h2>Highlights</h2>
+        <ul>
+          <li>The story revolves around a barber, named Maharaja</li>
+          <li>His day revolves around his job and taking care of his daughter, Jyothi</li>
+          <li>His simple life takes a wild turn when his dustbin, which he named Lakshmi, is stolen</li>
+        </ul>
+      </div>
+      <div class="drawbacks">
+        <h2>Drawbacks</h2>
+        <ul>
+          <li> a film that talks about sexual assault, rape and other issues that women are subjected to</li>
+          <li>Filming sexual assault is always a tightrope, something that Maharaja clearly struggles with</li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
